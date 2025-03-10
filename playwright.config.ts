@@ -4,8 +4,13 @@
  * See https://playwright.dev/docs/test-configuration for more details.
  */
 
-import { ACTION_TIMEOUT, EXPECT_TIMEOUT, NAVIGATION_TIMEOUT, TEST_TIMEOUT } from 'utils/timeout-constants';
-import { WaitForLoadStateOptions } from 'setup/optional-parameter-types';
+import {
+  ACTION_TIMEOUT,
+  EXPECT_TIMEOUT,
+  NAVIGATION_TIMEOUT,
+  TEST_TIMEOUT,
+} from './src/anil-playwright/utils/timeout-constants';
+import { WaitForLoadStateOptions } from './src/anil-playwright/setup/optional-parameter-types';
 import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env' });

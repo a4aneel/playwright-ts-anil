@@ -1,7 +1,11 @@
-import { click, clickAndNavigate, fill, gotoURL } from 'utils/action-utils';
+import { click, clickAndNavigate, fill, gotoURL } from '../../../src/anil-playwright/utils/action-utils';
 import { failureLoginCredentials, successLoginCredentials } from '../../testdata/sauce-demo-test-data';
-import { expectElementToBeVisible } from 'utils/assert-utils';
-import { getLocator, getLocatorByPlaceholder, getLocatorByRole } from 'utils/locator-utils';
+import { expectElementToBeVisible } from '../../../src/anil-playwright/utils/assert-utils';
+import {
+  getLocator,
+  getLocatorByPlaceholder,
+  getLocatorByRole,
+} from '../../../src/anil-playwright/utils/locator-utils';
 
 const userName = `#user-name`;
 const password = () => getLocator(`#password`).or(getLocatorByPlaceholder('Password', { exact: true }));

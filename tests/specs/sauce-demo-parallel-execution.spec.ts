@@ -1,4 +1,4 @@
-import { test } from 'setup/page-setup';
+import { test } from '../../src/anil-playwright/setup/page-setup';
 import * as LoginPage from '../pages/preferred-pom/sauce-demo-login-page';
 import * as ProductsPage from '../pages/preferred-pom/sauce-demo-products-page';
 

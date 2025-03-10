@@ -1,6 +1,6 @@
-import { goBack } from 'utils/action-utils';
-import { closePage, switchPage, switchToDefaultPage } from 'utils/page-utils';
-import { test } from 'setup/page-setup';
+import { goBack } from '../../src/anil-playwright/utils/action-utils';
+import { closePage, switchPage, switchToDefaultPage } from '../../src/anil-playwright/utils/page-utils';
+import { test } from '../../src/anil-playwright/setup/page-setup';
 import {
   clickFacebookInstagramFooterLink,
   clickFacebookMetaQuestFooterLink,

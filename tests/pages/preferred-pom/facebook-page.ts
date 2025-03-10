@@ -1,6 +1,6 @@
-import { click, clickAndNavigate, gotoURL } from 'utils/action-utils';
-import { expectPageToHaveURL } from 'utils/assert-utils';
-import { getLocatorByText } from 'utils/locator-utils';
+import { click, clickAndNavigate, gotoURL } from '../../../src/anil-playwright/utils/action-utils';
+import { expectPageToHaveURL } from '../../../src/anil-playwright/utils/assert-utils';
+import { getLocatorByText } from '../../../src/anil-playwright/utils/locator-utils';
 
 const instagramLink = () => getLocatorByText('Instagram', { exact: true });
 const privacyPolicyLink = () => getLocatorByText('Privacy Policy');

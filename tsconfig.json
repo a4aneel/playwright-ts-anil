@@ -17,7 +17,7 @@
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
-    "baseUrl": "src/vasu-playwright",
+    "baseUrl": "src/anil-playwright",
     "paths": {
       "@pages": ["./tests/pages"],
       "@testdata": ["./tests/testdata"]
