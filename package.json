@@ -1,5 +1,5 @@
 {
-  "name": "playwright-ts",
+  "name": "playwright-ts-anil",
   "description": "Playwright TS framework is designed for Web (Desktop & Mobile), API, and Electron apps. Stable and Robust layer on top of Playwright with inbuilt Utilities, Linting, Logger, Web hooks, Github actions, Reports and much more",
   "keywords": [
     "playwright",
@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vasu31dev/playwright-ts.git"
+    "url": "https://github.com/a4aneel/playwright-ts-anil.git"
   },
   "author": {
-    "name": "Vasudeva Annam",
-    "email": "vasu31dev@gmail.com"
+    "name": "Anil Nagisetty",
+    "email": "anil.tester90@gmail.com"
   },
   "env": {
     "node": true,
