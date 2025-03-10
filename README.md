@@ -396,3 +396,5 @@ In addition to these, Playwright also recommends following certain best practice
 ## Contribution guide
 
 Contributions are welcome! Please read the contributing guidelines first. (In progress)
+
+# playwright-ts-anil
