@@ -22,7 +22,7 @@ Ensure you have the following software installed on your machine:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/vasu31dev/playwright-ts.git
+git clone https://github.com/a4aneel/playwright-ts.git
 ```
 
 2. Navigate to the project directory:
