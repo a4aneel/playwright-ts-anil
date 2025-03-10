@@ -54,13 +54,13 @@ export default defineConfig({
    * The reporter to use. This can be set to use a different value on CI.
    * See https://playwright.dev/docs/test-reporters
    */
-  reporter: [['./src/vasu-playwright/setup/custom-logger.ts'], ['html', { open: 'never' }], ['dot']],
+  reporter: [['./src/anil-playwright/setup/custom-logger.ts'], ['html', { open: 'never' }], ['dot']],
   /**
    * Shared settings for all the projects below.
    * See https://playwright.dev/docs/api/class-testoptions
    */
-  globalSetup: require.resolve('./src/vasu-playwright/setup/global-setup.ts'),
-  globalTeardown: require.resolve('./src/vasu-playwright/setup/global-teardown.ts'),
+  globalSetup: require.resolve('./src/anil-playwright/setup/global-setup.ts'),
+  globalTeardown: require.resolve('./src/anil-playwright/setup/global-teardown.ts'),
   timeout: TEST_TIMEOUT,
   expect: {
     timeout: EXPECT_TIMEOUT,
