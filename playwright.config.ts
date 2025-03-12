@@ -54,7 +54,18 @@ export default defineConfig({
    * The reporter to use. This can be set to use a different value on CI.
    * See https://playwright.dev/docs/test-reporters
    */
-  reporter: [['./src/anil-playwright/setup/custom-logger.ts'], ['html', { open: 'never' }], ['dot']],
+  reporter: [
+    ['./src/anil-playwright/setup/custom-logger.ts'],
+    ['html', { open: 'never' }],
+    ['dot'],
+    ['allure-playwright'],
+    [
+      'json',
+      {
+        outputFile: 'jsonReports/jsonReport.json',
+      },
+    ],
+  ],
   /**
    * Shared settings for all the projects below.
    * See https://playwright.dev/docs/api/class-testoptions
